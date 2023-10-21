@@ -78,6 +78,16 @@
 			, <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 	};
+
+
+
+	&kscan0 {
+		debounce-press-ms = <2>;
+    		debounce-release-ms = <2>;
+	};
+
+
+
 	ext-power {
 		compatible = "zmk,ext-power-generic";
 		label = "EXT_POWER";
