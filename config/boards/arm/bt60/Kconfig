@@ -7,4 +7,6 @@ config BOARD_ENABLE_DCDC
 	depends on BOARD_BT60
 
 
+
+#RollOver
 config ZMK_HID_REPORT_TYPE_NKRO = y
