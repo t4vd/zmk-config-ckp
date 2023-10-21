@@ -8,5 +8,4 @@ config BOARD_ENABLE_DCDC
 
 
 
-#RollOver
-config ZMK_HID_REPORT_TYPE_NKRO = y
+
