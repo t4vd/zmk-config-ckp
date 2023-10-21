@@ -4,10 +4,6 @@
 
 
 
-&kscan0 {
-    debounce-press-ms = <2>;
-    debounce-release-ms = <2>;
-};
 
 / {
     keymap {
