@@ -6,8 +6,8 @@
     combos {
         compatible = "zmk,combos";
 
-        Reset {
-            bindings = <&reset>;
+        Bootloader {
+            bindings = <&bootloader>;
             key-positions = <0 13>;
         };
 
