@@ -15,6 +15,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <28 41>;
         };
+
+        keyboard_reset {
+            bindings = <&sys_reset>;
+            key-positions = <0 41 13>;
+        };
     };
 
     keymap {
